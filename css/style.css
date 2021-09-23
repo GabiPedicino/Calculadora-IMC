@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../imagenes/dieta-5.jpg);
+    background-color: #D0D0D0;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+h1{
+    text-align: center;
+    text-shadow: 0.05em 0.05em rgb(85, 238, 162);
+    margin: 0 0 30px 0;
+    padding: 10px;
+    color: #001E6C;
+    font-family: 'Grechen Fuemen', cursive;    
+    font-size: 40px;
+}
+
+h2{
+   
+    text-shadow: 0.05em 0.05em rgb(9, 93, 202);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #111D5E;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.texto-info
+{
+    margin-top: 95px;    
+    
+}
+
+p{
+    color: white;
+    font-size: 10px;
+    width: 50%;
+    margin-left: 600px;
+  
+    
+}
+
+.contenido{
+    margin-top: 600px;
+    padding: 30px;
+    background:rgba(0,0,0,.7);
+    border: solid 1px transparent;
+    width: 300px;
+    margin:auto;
+    border-radius: 10px;
+    color:grey;
+    background-color: transparent;
+    
+}
+
+label{
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+}
+input{
+    display:block;
+    width: 200px;
+    margin: 10px 0;
+    height: 30px;
+    color: grey;
+    border-radius: 10px;
+    text-align: center;
+  
+
+}
+
+button{  
+    background-image: linear-gradient(to right, #52c234 0%, #061700  51%, #52c234  100%)
+}
+button{
+    margin: 2px;
+    padding: 10px 35px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    width: 190px;
+    border: none;
+}
+
+span{
+    color: tomato;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Calculadora IMC</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Carattere&display=swap" rel="stylesheet">
+
+        <link href="css/style.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <h1>CALCULADORA INDICE MASA CORPORAL</h1>
+             
+        <h2>Para calcular su índice de masa corporal ingrese estatura y peso: </h2>
+
+        <div class="contenido">
+            <div>   
+                <label>Estatura:</label>
+                <input type="number" name="estatura" id="estatura" placeholder="p. ej. 1.80">
+            </div>
+
+            <div>
+                <label>Peso:</label>
+                <input type="number" name="peso" id="peso" placeholder="p. ej. 51.5">
+            </div>
+            <button onclick="calculador()">Calcular</button>
+        </div>
+       
+        <div class="texto-info">
+            <p>El IMC es usado como uno de varios indicadores para evaluar el estado nutricional. Debe considerarse como una guía aproximativa, ya que puede no corresponder al mismo grado de gordura en diferentes individuos.
+            <p>*Mantener un peso saludable puede reducir el riesgo de enfermedades crónicas asociadas al sobrepeso y la obesidad*</p>
+        </div>
+    
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,4 +1,4 @@
-let calculador = () =>{
+function calculador(){
     let peso  = document.getElementById("peso").value;
     let estatura = document.getElementById("estatura").value;
 
@@ -20,4 +20,15 @@ let calculador = () =>{
 
 }
 
+
+function limpiar() {
+    document.getElementById("estatura").value = "";
+    document.getElementById("peso").value = "";
+  }
+
 boton.addEventListenner("click", calculador);
+
+
+
+
+  

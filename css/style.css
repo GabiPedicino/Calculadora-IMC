@@ -76,13 +76,15 @@ input{
     color: grey;
     border-radius: 10px;
     text-align: center;
+    outline: 2px solid grey;
+    outline-offset: 2px;
   
 
 }
 
-button{  
-    background-image: linear-gradient(to right, #52c234 0%, #061700  51%, #52c234  100%)
+button{background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%); 
 }
+
 button{
     margin: 2px;
     padding: 10px 35px;
@@ -100,3 +102,25 @@ button{
 span{
     color: tomato;
 }
+
+#btn-limpiar{background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+
+#btn-limpiar{
+    margin: 10px;
+    width: 80px;
+    padding: 10px 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+#btn-limpiar:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+    
